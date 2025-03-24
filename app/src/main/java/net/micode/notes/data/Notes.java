@@ -18,6 +18,8 @@ package net.micode.notes.data;
 
 import android.net.Uri;
 public class Notes {
+
+    //这里是定义了基本的信息，即认证信息和日志输出时的标志，方便我们了解日志信息是由谁发出的。
     public static final String AUTHORITY = "micode_notes";
     public static final String TAG = "Notes";
     public static final int TYPE_NOTE     = 0;
